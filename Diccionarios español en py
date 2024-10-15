@@ -1,0 +1,10 @@
+Random = (input(" ¿Cual es tu ciduad?:  ")) #Así es como imprimimos la variable para introducir el dato que haga mas dinamico nuestro script¡
+mi_directorio =  {
+    'nombre':'', #Importante poner un nombre en caso de que queramos hacer un proyecto con el nombre¡
+    'edad' : 21, # A la hora de usar el input, si estamos usando nuetsra edad o un valor numerico colocar el str (input())
+    'ciudad' : 'Astana'
+}
+
+mi_directorio['ciudad'] = Random
+
+print(f"Mi ciudad es: {mi_directorio['ciudad']}")
